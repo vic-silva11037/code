@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- "Linka" o CSS ao HTML-->
+  <link rel="stylesheet" type="text/css" href="dica.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="menu.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+</style>
+</head>
+<body>
+
+<!-- Abre o Modal - Botão com icone de dica -->
+<button id="myBtnDica"><img src="Icones/dica.png" alt="Dica" width="50%" height="50%"></button>
+
+<!-- O Modal -->
+<div id="myModalDica" class="modal-dica">
+
+  <!-- Conteudo do Modal - Menu aparecera para o jogador -->
+  <div id = conteudoModalDica class="modal-content-dica">
+    <span class="closeDica">&times;</span>
+    <h3>INSTRUÇÕES</h3>
+    <p>Para essa fase, recomenda-se fazer isso e isso.</p>
+  </div>
+</div>
+
+<!-- Abre o Modal - Botão com icone de menu -->
+<button id="myBtnMenu"><img src="Icones/menu.png" alt="Dica" width="50%" height="50%"></button>
+<!-- O Modal -->
+<div id="myMenu" class="modal-menu">
+
+  <!-- Conteudo do Modal - Mensagem que aparecera para o jogador -->
+  <div class="modal-content-menu">
+    <span class="closeMenu">&times;</span>
+    <h2 id="menuTi" >MENU</h2>
+    <span class="resume"><a href="#">Voltar ao jogo</a></span>
+    
+    <a href="#">Reiniciar</a>
+    <a href="#">Sair do jogo</a>
+   
+    
+  </div>
+
+</div>
+
+
+
+
+<!-- "Linka" o JavaScript ao HTML-->
+  <script src="dica.js"></script>
+ <script src="menu.js"></script>
+  
+ 
+</body>
+</html>
